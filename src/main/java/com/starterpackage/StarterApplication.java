@@ -28,9 +28,13 @@ public class StarterApplication {
 //		}
 //
 
-
-
-
+//		1. There was a  problem of changing the sorting object in every controller
+//
+//		2. Create a common class that is sort and every type of sorting would get extented to this common sort class
+//
+//		3. Create a spring container which will have object of appropriate sorting algorithm
+//
+//		4. Controller would communicate to this container to get the proper sorting logic.
 		SpringApplication.run(StarterApplication.class, args);
 	}
 }
