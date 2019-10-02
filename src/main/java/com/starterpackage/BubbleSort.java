@@ -2,8 +2,12 @@ package com.starterpackage;
 
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+
+//@Component
+
+@Service
 public class BubbleSort extends Sort {
 
 	BubbleSort() {

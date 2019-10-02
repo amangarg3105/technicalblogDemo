@@ -13,6 +13,7 @@ public class Home {
 	Sort sort;
 
 
+
 	@RequestMapping("home")
 	@ResponseBody
 	public String homeMethod() {
@@ -25,6 +26,6 @@ public class Home {
 
 	//	break the array in two halves recursively and merge them
          sort.sorting();
-		return "";
+		return "This is home page";
 	}
 }
